@@ -1,6 +1,10 @@
 import click
 import smtplib, ssl
 from getpass import getpass
+import imaplib
+import os
+import email
+import base64
 
 port=465
 
